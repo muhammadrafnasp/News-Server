@@ -1,0 +1,30 @@
+                                            server creation of news app
+
+1) create package.json file - npm init
+2) create node modules -  install express - npm i express
+3) create index.js(main entry point)
+4)In index.js
+            1)import express
+            2)create application using express
+            3)setup a port number 
+            4)use json parser for server responses
+5)Integration -
+            1) Install cors - npm i cors
+            2)import cores into index.js
+            3)using cores specify the origin to the server
+              origin:'http://localhost:4200'
+6)Service - create a folder services also create 2 files
+            1)dataServices.js
+            2)db.js
+7)backend and mongoDb connection
+            1)install mongoose - npm i mongoose
+            2)import mongoose into db.js
+            3)define the connection string
+            4)create model for users and imports it
+            5)Create model for news and export it                      
+8)Resolving api calls in index.js
+            1)Import dataServices
+9)Create logic in dataServices
+            1)import db  
+            2)define function
+10)difine api call in index.js            
